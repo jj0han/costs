@@ -1,0 +1,24 @@
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.form_control label {
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+.form_control select {
+  color: #7b7b7b;
+  border-radius: 0;
+  border: none;
+  padding: 0.7em;
+}
+.form_control select::-moz-placeholder {
+  color: #7b7b7b;
+}
+.form_control select:-ms-input-placeholder {
+  color: #7b7b7b;
+}
+.form_control select::placeholder {
+  color: #7b7b7b;
+}

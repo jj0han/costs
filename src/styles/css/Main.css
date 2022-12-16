@@ -1,0 +1,13 @@
+.container {
+  background-color: #f2f1f1;
+  min-height: calc(100vh - 277px);
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-start;
+}
