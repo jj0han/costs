@@ -8,7 +8,7 @@ export default function Select({ name, text, options, handleCategory }) {
     return (
         <div className="form_control">
             <label htmlFor={name}>{text}:</label>
-            <select onChange={handleCategory} name={name} id={name}>
+            <select required onChange={handleCategory} name={name} id={name}>
                 <option disabled selected>Selecione uma opção</option>
                 {allOptions}
             </select>

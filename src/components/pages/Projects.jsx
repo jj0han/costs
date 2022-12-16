@@ -7,6 +7,7 @@ export default function Projects() {
         fetch("http://localhost:5000/projects")
             .then(res => res.json())
             .then(dt => setData(dt))
+            .catch((err) => console.log(err))
     }, [])
 
     console.log(data)
@@ -18,7 +19,7 @@ export default function Projects() {
     return (
         <div>
             <h1>Projects</h1>
-            {Projetos}
+            {Projetos ? Projetos : ""}
         </div>
     )
 }
